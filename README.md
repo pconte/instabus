@@ -1,3 +1,9 @@
+Forked!
+
+I forked the Instabus repo in order to replace the Austin-centered map and api calls with Seattle-centered map and api calls.
+
+Eventually, I'd like to focus on the Vashon Island bus routes, combined with real-time ferry positioning data.  Also interpolate the position of the busses between api responses, so that the movement animation is smoother.
+
 # Instabus 6.7
 
 This is a rewrite of https://github.com/luqmaan/instabus.

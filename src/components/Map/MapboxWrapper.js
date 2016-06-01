@@ -36,11 +36,11 @@ class MapboxWrapper {
   constructor(mapDiv) {
     L.mapbox.accessToken = 'pk.eyJ1IjoiaGFtZWVkbyIsImEiOiJHMnhTMDFvIn0.tFZs7sYMghY-xovxRPNNnw';
     const mapInit = {
-      center: [30.291708, -97.746557],
+      center: [47.5667, -122.3868],
       zoom: 13,
       attributionControl: false,
-      zoomControl: false,
-      scrollWheelZoom: false,
+      zoomControl: true,
+      scrollWheelZoom: true,
     };
     this.map = L.mapbox.map(mapDiv, 'mapbox.streets', mapInit);
     this.map.on('contextmenu', () => {
